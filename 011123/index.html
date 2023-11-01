@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Supermercado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Tienda de Supermercado</h1>
+    <form id="product-form">
+        <label for="IdProd">Ingrese el ID del Producto (1-5):</label>
+        <input id="IdProd" type="number" min="1" max="5">
+        <button id="BtnSumar" type="submit">Agregar Producto</button>
+    </form>
+    <br>
+    <div id="product-list">
+        <p>Lista de Productos</p>
+        <p>ID || Producto || Precio</p>
+    </div>
+    <div id="Total">
+        <p id="total-price">Precio Total: $0</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
